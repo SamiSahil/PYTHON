@@ -1,3 +1,14 @@
+/*This Python script, smartbok.py, is a versatile document-to-speech reader. 
+Its primary function is to open various types of files, 
+    extract the text content, and then use 
+a text-to-speech engine to read that text aloud.
+Universal File Reader: (.pdf, .docx, .png, etc.) 
+pyttsx3: The core text-to-speech engine.  */
+
+##   *** required packages to install first 
+# pip install PyPDF2, python-docx, python-pptx, Pillow, pytesseract, ebooklib, beautifulsoup4, textract 
+
+
 import pyttsx3
 import pathlib
 from typing import Union, Optional
