@@ -1,3 +1,9 @@
+# Before you run this code, make sure to install this packages 
+# pip install os
+# pip install hashlib
+# pip install tkinter
+
+
 import os
 import hashlib
 from tkinter import filedialog, Tk, messagebox
